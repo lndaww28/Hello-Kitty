@@ -1,0 +1,88 @@
+
+        <!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Layout Dasar denngan DIV</title>
+    <style>
+        body{
+            margin:0;
+            font-family: Arial, sans-serif;
+        }
+        .header{
+            background-color: pink;
+            color:white;
+            padding:20px;
+            text-align: center;
+        }
+
+        /* Kontainer utama */
+        .container{
+            display: flex;
+            min-height: 70vh;
+        }
+
+        /* sidebar */
+        .sidebar{
+            background: #f1f1f1;
+            width: 25;
+            padding:20px;
+        }
+
+        /* Konten utama */
+        .content{
+            background: #fff;
+            flex:1;
+            padding:20px;
+        }
+
+        .content img{
+            width: 100%;
+            height: 400px;
+        }
+
+        /* Footer */
+        .footer{
+            background:pink;
+            color: white;
+            text-align: center;
+            padding:15px;
+        }
+
+        a{
+            text-decoration: none;
+            color: pink;
+        }
+
+        a:hover {
+            cursor: pointer;
+            font-weight: bold;
+            font-size: large;
+        }
+    </style>
+</head>    
+<body>
+    <div class="header">
+        <h1>Hello kitty 🎀</h1>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <h3>Directory</h3>  
+            <ul>
+                <li><a href="website.linda.html">Home</a></li>
+                <li><a href="linda.galery.html">Gallery</a></li>
+                <li><a href="linda.about.html">About</a></li>
+                <li><a href="linda.blog.html">Blog</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2>Konten Utama</h2>
+            <h1>Here's all the Hello Kitty. </h1>
+            <img src="hello_kitty.jpg">
+    <div class="footer">
+        <p>© 2025 - semua Hak Dilindungi</p>
+    </div>
+</body>
+</html>
+</html>
